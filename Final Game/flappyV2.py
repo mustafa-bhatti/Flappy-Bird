@@ -48,7 +48,7 @@ class Game:
         self.flag = False
         self.font_surf = self.font.render(str(self.score), False, (0,0,0)) # updates the score values
         self.font_rect = self.font_surf.get_rect(center= (400,70))
-        self.high = self.font.render(f"HIGHT SCORE :  {self.high_score}",False, (249,249,249)) # renders the high score value on main screen
+        self.high = self.font.render(f"HIGH SCORE :  {self.high_score}",False, (249,249,249)) # renders the high score value on main screen
         self.high_rect = self.high.get_rect(center= (400,120))
         # leaderboard 
         self.text_flag = False 
@@ -126,7 +126,7 @@ class Game:
                 self.high_score= score
             else:
                 self.high_score = maxScore
-            self.high = self.font.render(f"HIGHT SCORE :  {self.high_score}",False, (249,249,249)) # renders the high score
+            self.high = self.font.render(f"HIGH SCORE :  {self.high_score}",False, (249,249,249)) # renders the high score
            
     def append_data(self): # adds new score in the leaderboard
         if len(self.text) == 4: # name must be four chars
