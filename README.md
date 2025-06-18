@@ -64,9 +64,9 @@ Final Game/
 
 ## Screenshots
 
-![Home](Final%20Game\screenshots\main.png)
-![gameplay](Final%20Game\screenshots\game.png)
-![Leaderboard](Final%20Game\screenshots\leaderboard1.png)
+![Home](Final%20Game/screenshots/main.png)
+![gameplay](Final%20Game/screenshots/game.png)
+![Leaderboard](Final%20Game/screenshots/leaderboard1.png)
 
 ## Credits
 
