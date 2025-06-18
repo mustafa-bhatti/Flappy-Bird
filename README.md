@@ -62,6 +62,12 @@ Final Game/
 - The top scores are saved in `board.json`.
 - The leaderboard can be viewed from the main menu.
 
+## Screenshots
+
+![Home](Final Game\screenshots\main.png)
+![gameplay](Final Game\screenshots\game.png)
+![Leaderboard](Final Game\screenshots\leaderboard1.png)
+
 ## Credits
 
 - Developed using PyGame.
